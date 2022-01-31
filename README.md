@@ -1,17 +1,20 @@
 # Learning
 
-### How to compile/interpret and run the code?
+### How to execute the code?
 <ul>
   <li>
-    How to run Bash file?
+    How to run a <strong>Bash</strong> file?
     </br>
-    ->
-    <code>
-      bash ./file_name.bash
-    </code>
+    <ol>
+      <li>
+        <code>
+          bash ./file_name.bash
+        </code>
+      </li>
+    </ol>
   </li>
   <li>
-    How to compile and run C file?
+    How to run a <strong>C</strong> file?
     </br>
     <ol>
       <li>
@@ -27,7 +30,7 @@
     </ol>
   </li>
   <li>
-    How to compile and run C# file?
+    How to run a <strong>C#</strong> file?
     </br>
     <ol>
       <li>
@@ -43,7 +46,7 @@
     </ol>
   </li>
   <li>
-    How to compile and run C++ file?
+    How to run a <strong>C++</strong> file?
     </br>
     <ol>
       <li>
@@ -59,7 +62,7 @@
     </ol>
   </li>
   <li>
-    How to compile and run Haskell file?
+    How to run a <strong>Haskell</strong> file?
     </br>
     <ol>
       <li>
@@ -75,27 +78,36 @@
     </ol>
   </li>
   <li>
-    How to run Javascript file?
+    How to run a <strong>Javascript</strong> file?
     </br>
-    ->
-    <code>
-      node ./file_name.js
-    </code>
+    <ol>
+      <li>
+        <code>
+          node ./file_name.js
+        </code>
+      </li>
+    </ol>
   </li>
   <li>
-    How to run Python 3 file?
+    How to run a <strong>Python 3</strong> file?
     </br>
-    ->
-    <code>
-      python3 ./file_name.py
-    </code>
+    <ol>
+      <li>
+        <code>
+          python3 ./file_name.py
+        </code>
+      </li>
+    </ol>
   </li>
   <li>
-    How to run Typescript file?
+    How to run a <strong>Typescript</strong> file?
     </br>
-    ->
-    <code>
-      node ./file_name.ts
-    </code>
+    <ol>
+      <li>
+        <code>
+          node ./file_name.ts
+        </code>
+      </li>
+    </ol>
   </li>
 </ul>
