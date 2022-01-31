@@ -1,5 +1,7 @@
 # Learning
 
+## This repository contains code in different programming languages that I've been learning in my free time.
+
 ### How to execute the code?
 <ul>
   <li>
