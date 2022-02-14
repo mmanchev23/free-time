@@ -1,4 +1,4 @@
-# Learning
+# Free-time learning
 
 ## This repository contains code in different programming languages that I've been learning in my free time.
 
