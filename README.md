@@ -91,6 +91,17 @@
     </ol>
   </li>
   <li>
+    How to run a <strong>Lua</strong> file?
+    </br>
+    <ol>
+      <li>
+        <code>
+          lua ./file_name.lua
+        </code>
+      </li>
+    </ol>
+  </li>
+  <li>
     How to run a <strong>Python 3</strong> file?
     </br>
     <ol>
