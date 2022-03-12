@@ -76,7 +76,12 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-
 sudo apt install r-base
 R --version
 ```
-12. <strong>Typescript</strong> Compiler:
+12. <strong>Rust</strong> Compiler:
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt install rustc
+```
+13. <strong>Typescript</strong> Compiler:
 ```
 sudo apt update -y
 sudo apt install nodejs -y
@@ -129,7 +134,12 @@ python3 ./file_name.py
 ```
 R --no-save --no-restore < file_name.r
 ```
-12. How to run a <strong>Typescript</strong> file?
+12. How to run a <strong>Rust</strong> file?
+```
+rustc file_name.rs
+./file_name
+```
+13. How to run a <strong>Typescript</strong> file?
 ```
 node ./file_name.js
 ```
