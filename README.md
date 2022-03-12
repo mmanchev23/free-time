@@ -19,105 +19,105 @@
 1. <strong>Bash</strong> Compiler - No need of compiler, just open the terminal and run the script with the command written bellow.
 2. <strong>C#</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install mono-mcs -y
+sudo apt update -y
+sudo apt install mono-mcs -y
 ```
 3. <strong>C++</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install build-essential -y
-  g++ --version
+sudo apt update -y
+sudo apt install build-essential -y
+g++ --version
 ```
 4. <strong>C</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install build-essential -y
-  gcc --version
+sudo apt update -y
+sudo apt install build-essential -y
+gcc --version
 ```
 5. [<strong>Go</strong> Compiler](https://go.dev/dl/go1.17.7.linux-amd64.tar.gz)
 6. <strong>Haskell</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install ghc ghc-prof ghc-doc -y
-  ghc --version
+sudo apt update -y
+sudo apt install ghc ghc-prof ghc-doc -y
+ghc --version
 ```
 7. <strong>Java</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install default-jre -y
-  java -version
+sudo apt update -y
+sudo apt install default-jre -y
+java -version
 ```
 8. <strong>Javascript</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install nodejs -y
-  node -v
+sudo apt update -y
+sudo apt install nodejs -y
+node -v
 ```
 9. <strong>Lua</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install lua5.2
-  lua -v
+sudo apt update -y
+sudo apt install lua5.2
+lua -v
 ```
 10. <strong>Python 3</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install software-properties-common -y
-  sudo add-apt-repository ppa:deadsnakes/ppa
-  sudo apt-get update -y
-  sudo apt-get install python3.9 -y
-  python3 --version
+sudo apt update -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update -y
+sudo apt install python3.10 -y
+python3 --version
 ```
 11. <strong>Typescript</strong> Compiler:
 ```
-  sudo apt-get update -y
-  sudo apt-get install nodejs -y
-  node -v
+sudo apt update -y
+sudo apt install nodejs -y
+node -v
 ```
 
 
 ### How to execute the code?
 1. How to run a <strong>Bash</strong> file?
 ```
-  bash ./file_name.bash
+bash ./file_name.bash
 ```
 2. How to run a <strong>C#</strong> file?
 ```
-  mcs -out:file_name.exe file_name.cs && ./file_name.exe
+mcs -out:file_name.exe file_name.cs && ./file_name.exe
 ```
 3. How to run a <strong>C++</strong> file?
 ```
-  g++ -o file_name ./file_name.c && ./file_name
+g++ -o file_name ./file_name.c && ./file_name
 ```
 4. How to run a <strong>C</strong> file?
 ```
-  gcc -o file_name ./file_name.c && ./file_name
+gcc -o file_name ./file_name.c && ./file_name
 ```
 5. How to run a <strong>Go</strong> file?
 ```
-  go run file_name.go
+go run file_name.go
 ```
 6. How to run a <strong>Haskell</strong> file?
 ```
-  ghc file_name.hs && ./file_name
+ghc file_name.hs && ./file_name
 ```
 7. How to run a <strong>Java</strong> file?
 ```
-  javac ./file_name.java && java class_name
+javac ./file_name.java && java class_name
 ```
 8. How to run a <strong>Javascript</strong> file?
 ```
-  node ./file_name.js
+node ./file_name.js
 ```
 9. How to run a <strong>Lua</strong> file?
 ```
-  lua ./file_name.lua
+lua ./file_name.lua
 ```
 10. How to run a <strong>Python 3</strong> file?
 ```
-  python3 ./file_name.py
+python3 ./file_name.py
 ```
 11. How to run a <strong>Typescript</strong> file?
 ```
-  node ./file_name.js
+node ./file_name.js
 ```
