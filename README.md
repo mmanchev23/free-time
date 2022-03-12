@@ -72,6 +72,7 @@ python3 --version
 ```
 11. <strong>R</strong> Compiler:
 ```
+sudo apt update -y
 sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
@@ -80,8 +81,10 @@ R --version
 ```
 12. <strong>Rust</strong> Compiler:
 ```
+sudo apt update -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install rustc
+rustc --version
 ```
 13. <strong>Typescript</strong> Compiler:
 ```
@@ -89,7 +92,6 @@ sudo apt update -y
 sudo apt install nodejs -y
 node -v
 ```
-
 
 ### How to execute the code?
 1. How to run a <strong>Bash</strong> file?
