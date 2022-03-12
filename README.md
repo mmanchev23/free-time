@@ -15,7 +15,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-### How to install the needed compilers for Linux (Ubuntu-based distros only!)?
+### How to install the needed compilers for Linux (Debian-based distros only!)?
 1. <strong>Bash</strong> Compiler - No need of compiler, just open the terminal and run the script with the command written bellow.
 2. <strong>C#</strong> Compiler:
 ```
@@ -34,7 +34,7 @@ sudo apt update -y
 sudo apt install build-essential -y
 gcc --version
 ```
-5. [<strong>Go</strong> Compiler](https://go.dev/dl/go1.17.7.linux-amd64.tar.gz)
+5. <strong>Go</strong> Compiler - https://go.dev/doc/install
 6. <strong>Haskell</strong> Compiler:
 ```
 sudo apt update -y
@@ -44,7 +44,7 @@ ghc --version
 7. <strong>Java</strong> Compiler:
 ```
 sudo apt update -y
-sudo apt install default-jre -y
+sudo apt install default-jdk -y
 java -version
 ```
 8. <strong>Javascript</strong> Compiler:
@@ -68,7 +68,15 @@ sudo apt update -y
 sudo apt install python3.10 -y
 python3 --version
 ```
-11. <strong>Typescript</strong> Compiler:
+11. <strong>R</strong> Compiler:
+```
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+sudo apt install r-base
+R --version
+```
+12. <strong>Typescript</strong> Compiler:
 ```
 sudo apt update -y
 sudo apt install nodejs -y
@@ -117,7 +125,11 @@ lua ./file_name.lua
 ```
 python3 ./file_name.py
 ```
-11. How to run a <strong>Typescript</strong> file?
+11. How to run a <strong>R</strong> file?
+```
+R --no-save --no-restore < file_name.r
+```
+12. How to run a <strong>Typescript</strong> file?
 ```
 node ./file_name.js
 ```
